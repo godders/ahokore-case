@@ -65,7 +65,7 @@ Plate:
 
 Slipover:
 
-![slipover cutaway](pics/plate.png)
+![slipover cutaway](pics/slipover.png)
 
 ## Base
 
