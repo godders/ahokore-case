@@ -6,6 +6,18 @@ A 3D printable case for [Dezli's Ahokore keyboard](https://github.com/dezlidezli
 
 ![case shot](pics/glam_2.jpeg)
 
+## TL;DR
+
+ * Pick one of the 4 Top case variants - use Ahokore-Top-Tapping-Slipover.stl
+   if unsure.
+ * Base and battery cover are optional.
+ * If using the base you need 10x M2 4-5mm screws, ideally countersunk.
+ * If not using the base you need 10x 4mm screws. 5mm may be too long.
+ * This is a *tight* fit on most printers. You can probably ignore warnings
+   about out-of-bounds toolpaths (at least on a non-mini Prusa printer). Disable
+   "loops" if you're worried.
+ * Print at 0.3mm layer height. Enable "ironing" for the base.
+
 ## Case Top
 
 The case top has a couple of different options:
@@ -62,3 +74,48 @@ Currently it's just push fit into the battery cutout (this probably needs
 improvement!)
 
 ![no lid](pics/no_lid.jpeg)
+
+## Printing
+
+So, this thing *only just* fits on my Prusa i3 MK3S bed, and then only at a
+very specific angle (of 36°). I've set up the STLs so they have this angle
+hard-coded, so you should just be able to print directly.
+
+Even then, if you have "loops" enabled you'll get an error about toolpaths
+being out of bounds after slicing.
+
+![out of bounds warning](pics/oob.png)
+
+You can either disable loops to fix this, or just ignore it. At least on my
+setup it prints fine even with loops enabled.
+
+### Top
+
+Aside from the warnings above about toolpaths, there's not much to think about,
+I'd recommend printing the top upside-down (that orientation is already set in
+the STLs), and at 0.3mm layer height. There doesn't seem to be much reason to go
+smaller than that.
+
+### Base
+
+Like the top, the base barely fits on a Prusa's bed, and will generate warnings
+if loops are enabled which can usually be ignored.
+
+I'd recommend printing the base with ironing enables as this will greatly
+improve the accuracy of the top surface, which will allow it to sit flush with
+the top without gaps. Again there's not much reason to go smaller then 0.3mm
+layer height.
+
+### Battery Cover
+
+Nothing interesting here, just print it.
+
+## License
+
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Although please contact me if there's something you want to do that this
+license doesn't allow.
+
+For clarity, I do not consider charging materials and postage to print this for
+someone within the community to be commercial use.
+
