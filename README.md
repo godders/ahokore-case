@@ -2,9 +2,13 @@
 
 A 3D printable case for [Dezli's Ahokore keyboard](https://github.com/dezlidezlidezli/ahokore).
 
-![case shot](pics/glam_1.jpeg)
+![case shot angle](pics/glam_1.jpeg)
 
-![case shot](pics/glam_2.jpeg)
+![case shot top](pics/glam_2.jpeg)
+
+![inputs close up](pics/inputs_close.jpeg)
+
+![leds](pics/leds.jpeg)
 
 ## TL;DR
 
@@ -19,6 +23,8 @@ A 3D printable case for [Dezli's Ahokore keyboard](https://github.com/dezlidezli
  * Print at 0.3mm layer height. Enable "ironing" for the base.
 
 ## Case Top
+
+![case top underside](pics/model_top_underside.png)
 
 The case top has a couple of different options:
 
@@ -53,19 +59,37 @@ your switches so you don't need to desolder.
  * Choose "Plate" if you haven't installed your switches yet
  * Choose "Slipover" if you have installed switches and don't want to desolder them
 
+Plate:
+
+![plate cutaway](pics/plate.png)
+
+Slipover:
+
+![slipover cutaway](pics/plate.png)
+
 ## Base
+
+![base](pics/model_base.png)
 
 ![base bottom](pics/base_bottom.jpeg)
 
-The base is optional
+The base is optional, and can be omitted if you don't want to cover up the
+fantastic PCB artwork, or you want to make it as low profile as possible
+(omitting the base saves you about 1.5mm of height).
+
+![baseless](pics/baseless.png)
+
+(yeah I haven't soldered the switches in that pic!)
 
 Recommended screws are M2 5mm Countersunk (although non-countersunk screws also
 work).
 
 If you want to go without the base, then you'll need M2 4mm button head screws
-(don't use countersunk for this configuration!)
+(don't use countersunk screws for this configuration!)
 
 ## Battery Cover
+
+![cover](pics/cover.png)
 
 The battery cover is also optional, it's big enough to (just) fit a massive
 2400MAh battery, so pretty much anything should fit under there.
