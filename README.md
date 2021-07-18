@@ -141,5 +141,5 @@ Although please contact me if there's something you want to do that this
 license doesn't allow.
 
 For clarity, I do not consider charging materials and postage to print this for
-someone within the community to be commercial use.
+someone within the community to be commercial use and thus perfectly acceptable.
 
