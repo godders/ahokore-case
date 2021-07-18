@@ -1,6 +1,6 @@
 # Ahokore Case
 
-A 3D printable case for [Dezli's Ahokore keyboard](https://github.com/dezlidezlidezli/ahokore).
+A 3D printable case for Dezli's excellent [Ahokore keyboard](https://github.com/dezlidezlidezli/ahokore).
 
 ![case shot angle](pics/glam_1.jpeg)
 
@@ -18,9 +18,10 @@ A 3D printable case for [Dezli's Ahokore keyboard](https://github.com/dezlidezli
  * If using the base you need 10x M2 4-5mm screws, ideally countersunk.
  * If not using the base you need 10x 4mm screws. 5mm may be too long.
  * This is a *tight* fit on most printers. You can probably ignore warnings
-   about out-of-bounds toolpaths (at least on a non-mini Prusa printer). Disable
-   "loops" if you're worried.
- * Print at 0.3mm layer height. Enable "ironing" for the base.
+   about out-of-bounds toolpaths (at least on a Prusa MK3 printer). Disable
+   "loops" if you're worried and the warning should go away.
+ * Print at 0.3mm layer height
+ * Enable "ironing" when printing the base.
 
 ## Case Top
 
@@ -73,16 +74,20 @@ Slipover:
 
 ![base bottom](pics/base_bottom.jpeg)
 
+Recommended screws are M2 5mm Countersunk (although non-countersunk screws also
+work).
+
+## Baseless
+
 The base is optional, and can be omitted if you don't want to cover up the
 fantastic PCB artwork, or you want to make it as low profile as possible
 (omitting the base saves you about 1.5mm of height).
 
+Here's what the baseless configuration looks like:
+
 ![baseless](pics/baseless.jpeg)
 
 (yeah I haven't soldered the switches in that pic!)
-
-Recommended screws are M2 5mm Countersunk (although non-countersunk screws also
-work).
 
 If you want to go without the base, then you'll need M2 4mm button head screws
 (don't use countersunk screws for this configuration!)
@@ -125,14 +130,16 @@ smaller than that.
 Like the top, the base barely fits on a Prusa's bed, and will generate warnings
 if loops are enabled which can usually be ignored.
 
-I'd recommend printing the base with ironing enables as this will greatly
-improve the accuracy of the top surface, which will allow it to sit flush with
-the top without gaps. Again there's not much reason to go smaller then 0.3mm
-layer height.
+I'd recommend printing the base with ironing enabled as this will greatly
+improve the accuracy of the top surface and will help it to sit flush with
+the top without gaps.
+
+Again there's not much reason to go smaller then 0.3mm layer height.
 
 ### Battery Cover
 
-Nothing interesting here, just print it.
+Nothing interesting here, just print it upside down to get the best top finish
+(as with the other parts, the STLs are already set up in this orientation).
 
 ## License
 
@@ -140,6 +147,6 @@ This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licens
 Although please contact me if there's something you want to do that this
 license doesn't allow.
 
-For clarity, I do not consider charging materials and postage to print this for
-someone within the community to be commercial use and thus perfectly acceptable.
+(For clarity, I do not consider charging materials and postage to print this for
+someone within the community to be "commercial use" and thus perfectly acceptable!)
 
