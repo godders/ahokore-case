@@ -77,7 +77,7 @@ The base is optional, and can be omitted if you don't want to cover up the
 fantastic PCB artwork, or you want to make it as low profile as possible
 (omitting the base saves you about 1.5mm of height).
 
-![baseless](pics/baseless.png)
+![baseless](pics/baseless.jpeg)
 
 (yeah I haven't soldered the switches in that pic!)
 
