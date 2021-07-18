@@ -6,7 +6,7 @@ A 3D printable case for [Dezli's Ahokore keyboard](https://github.com/dezlidezli
 
 ![case shot top](pics/glam_2.jpeg)
 
-![inputs close up](pics/inputs_close.jpeg)
+![inputs close up](pics/input_close.jpeg)
 
 ![leds](pics/leds.jpeg)
 
